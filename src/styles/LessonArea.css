@@ -1,0 +1,30 @@
+.lesson-area-container {
+  width: 80vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  background-color: rgb(203, 230, 231);
+  color: black;
+}
+
+.lesson-area-container p {
+  width: 60%;
+  text-align: left;
+  word-spacing: 0.5rem;
+  line-height: 2rem;
+}
+
+.letter {
+  color: blueviolet;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
